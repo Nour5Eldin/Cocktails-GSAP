@@ -1,5 +1,5 @@
 import gsap from 'gsap'
-import {navLinks} from 'constants/index.js'
+import {navLinks} from '/constants/index.js'
 import { useGSAP } from '@gsap/react'
 const NavBar = () => {
     useGSAP(() => {
@@ -23,11 +23,11 @@ const NavBar = () => {
               <p>Velvet Pour</p>
           </a>
           <ul>
-              {navLinks.map((link) => {
+              {navLinks.map((link) => (
                   <li key={link.id}>
-                      <a href={`#{link.id}`}>{link.tiltle} </a>
+                      <a href={`#${link.id}`}>{link.title} </a>
                   </li>
-              })}
+              ))}
           </ul>
     </nav>
   )

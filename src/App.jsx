@@ -1,6 +1,7 @@
 import { gsap } from 'gsap'
 import { ScrollTrigger, SplitText } from 'gsap/all'
 import NavBar from './Components/NavBar';
+import Hero from './Components/Hero';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <main>
       <NavBar />
+      <Hero />
     </main>
   )
 }

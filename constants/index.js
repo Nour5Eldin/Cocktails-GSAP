@@ -116,4 +116,38 @@ const allCocktails = [
 	 "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
  },
 ];
-export { navLinks, cocktailLists, mockTailLists, featureLists, goodLists, allCocktails };
+const storeInfo = {
+ heading: "Where to Find Us",
+ addressHeading: "Visit Our Bar",
+ address: "456, Raq Blvd. Los Angeles, CA 90210",
+ contactHeading: "Contact Us",
+ contact: {
+	phone: "(555) 987-6543",
+	email: "JackCocktail@jacksonCocktail.com",
+ },
+};
+
+const openingHours = [
+ { day: "Mon–Thu", time: "11:00am – 12am" },
+ { day: "Fri", time: "11:00am – 2am" },
+ { day: "Sat", time: "9:00am – 2am" },
+ { day: "Sun", time: "9:00am – 1am" },
+];
+const socials = [
+ {
+	name: "Instagram",
+	icon: "/images/insta.png",
+	url: "#",
+ },
+ {
+	name: "X (Twitter)",
+	icon: "/images/x.png",
+	url: "#",
+ },
+ {
+	name: "Facebook",
+	icon: "/images/fb.png",
+	url: "#",
+ },
+];
+export { navLinks, cocktailLists, mockTailLists, featureLists, goodLists, allCocktails, storeInfo, openingHours, socials };
